@@ -149,3 +149,23 @@ h5 {
     width: 100%;
     object-fit: contain;
 }
+
+.made-for-section span {
+    color: #666666;
+    font-size: 11px;
+}
+
+.nav-button-section img {
+    width: 25px;
+    padding-right: 3px;
+}
+
+.nav-playlist-section i {
+    font-size: 30px;
+    color: #666666;
+    padding-right: 3px;
+}
+
+.nav-playlist-section h4 {
+    color: #666666;
+}
