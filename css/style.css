@@ -169,3 +169,18 @@ h5 {
 .nav-playlist-section h4 {
     color: #666666;
 }
+
+.nav-user-section img {
+    width: 10px;
+    padding-right: 3px;
+}
+
+.popular-section span {
+    color: #666666;
+    font-size: 11px;
+}
+
+.img-youg,
+.img-einaudi {
+    border-radius: 50%;
+}
