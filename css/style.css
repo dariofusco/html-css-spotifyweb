@@ -8,3 +8,70 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    line-height: 2rem;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.container {
+    border: 1px dashed red;
+    display: flex;
+}
+
+.navbar {
+    background-color: black;
+    color: #666666;
+    border: 1px dashed blue;
+    min-width: 200px;
+    min-height: 825px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.navbar a {
+    color: #666666;
+}
+
+.navbar h4,
+.navbar h5 {
+    color: white;
+}
+
+.nav-section {
+    border: 1px dashed green;
+}
+
+.nav-user-section {
+    border: 1px dashed green;
+}
+
+.nav-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60%;
+}
+
+.item-container {
+    border: 1px dashed blue;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.player-container {
+    border: 1px dashed red;
+    min-height: 100px;
+}
