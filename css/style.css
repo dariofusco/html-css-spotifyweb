@@ -75,3 +75,27 @@ a {
     border: 1px dashed red;
     min-height: 100px;
 }
+
+.upgrade-section {
+    border: 1px dashed green;
+    min-height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.upgrade-button {
+    border: 1px dashed green;
+    display: inline-block;
+    padding: 1rem;
+}
+
+.item-section li {
+    padding: 0 .5rem;
+}
+
+.item-section ul {
+    display: flex;
+    justify-content: center;
+}
