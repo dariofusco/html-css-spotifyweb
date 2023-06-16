@@ -57,14 +57,12 @@ h5 {
     color: white;
 }
 
-.nav-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
 .nav-section li {
     font-size: 13px;
+}
+
+.logo {
+    padding: 1rem 0;
 }
 
 .item-container {
@@ -147,9 +145,17 @@ h5 {
     font-size: 11px;
 }
 
+.nav-button-section {
+    padding: 1rem 0;
+}
+
 .nav-button-section img {
     width: 25px;
     padding-right: 3px;
+}
+
+.nav-playlist-section {
+    padding: 1rem 0;
 }
 
 .nav-playlist-section i {
@@ -160,6 +166,10 @@ h5 {
 
 .nav-playlist-section h4 {
     color: #666666;
+}
+
+.nav-user-section {
+    padding: 1rem 0;
 }
 
 .nav-user-section img {
@@ -233,7 +243,6 @@ h5 {
 .player-button {
     font-size: 1.5rem;
     text-align: center;
-    color: white;
 }
 
 .player-button span {
@@ -242,6 +251,7 @@ h5 {
 
 .player-button i {
     padding: 1rem;
+    color: white;
 }
 
 .right-volume-container {
