@@ -77,6 +77,9 @@ h5 {
 .player-container {
     background-color: #252525;
     min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .upgrade-section {
@@ -133,6 +136,7 @@ h5 {
     color: #666666;
     font-size: 11px;
 }
+
 .card img {
     width: 100%;
     object-fit: contain;
@@ -171,4 +175,68 @@ h5 {
 .img-youg,
 .img-einaudi {
     border-radius: 50%;
+}
+
+.thumbnail-container {
+    max-width: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail-text {
+    padding: 1rem;
+    font-size: .8rem;
+}
+
+.thumbnail-text span {
+    color: #666666;
+}
+
+.thumbnail-container i {
+    padding: .3rem;
+    font-size: 1.2rem;
+    color: #666666;
+}
+
+.mini-sinister {
+    width: 100%;
+    object-fit: contain;
+}
+
+.progress-bar {
+    background-color: #666666;
+    padding: 2px;
+}
+
+.center-player-container {
+    min-width: 300px;
+}
+
+.player-bar {
+    display: flex;
+}
+
+.player-bar span {
+    color: #666666;
+    font-size: .8rem;
+}
+
+.player-button {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.right-volume-container {
+    display: flex;
+}
+
+.right-volume-button i {
+    color: white;
+    padding: 0.3rem;
+}
+
+.volume-bar {
+    background-color: #666666;
+    padding: 2px;
 }
