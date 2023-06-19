@@ -55,15 +55,16 @@ h5 {
 }
 
 .navbar span {
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .navbar h4 {
     font-size: 15px;
 }
 
-.nav-section li {
-    font-size: 13px;
+.favicon {
+    width: 30px;
+    display: none;
 }
 
 .item-container {
@@ -102,11 +103,12 @@ h5 {
 .item-section li {
     padding: 0 .5rem;
     color: #666666;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .item-section ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -141,6 +143,23 @@ h5 {
 .card img {
     width: 100%;
     object-fit: contain;
+}
+
+.card i {
+    display: none;
+    position: absolute;
+    color: white;
+    font-size: 5rem;
+    right: 60px;
+    bottom: 135px;
+}
+
+.card {
+    position: relative;
+}
+
+.card:hover i {
+    display: block;
 }
 
 .made-for-section span {
@@ -210,7 +229,6 @@ h5 {
 
 .thumbnail-button i {
     padding: .3rem;
-    font-size: 1.2rem;
     color: #666666;
 }
 
@@ -265,6 +283,7 @@ h5 {
 .right-volume-button i {
     color: white;
     padding: 0.3rem;
+    font-size: 11px;
 }
 
 .right-volume-button {
@@ -283,4 +302,46 @@ h5 {
 
 .nav-button-section li:hover {
     border-left: 2px solid greenyellow;
+}
+
+@media screen and (width: 600px) {
+    .navbar span {
+        display: none;
+    }
+
+    .navbar {
+        align-items: center;
+    }
+
+    .logo-spotify {
+        display: none;
+    }
+
+    .favicon {
+        display: block;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .navbar {
+        min-width: unset;
+    }
+
+    .item-section ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .recently-played-section,
+    .made-for-section,
+    .popular-section {
+        padding-left: 3.5rem;
+    }
+
+    .player-button {
+        font-size: unset;
+    }
+
 }
