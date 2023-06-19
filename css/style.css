@@ -62,7 +62,7 @@ h5 {
     font-size: 15px;
 }
 
-.favicon {
+.logo-small {
     width: 30px;
     display: none;
 }
@@ -331,7 +331,7 @@ h5 {
         display: none;
     }
 
-    .favicon {
+    .logo-small {
         display: block;
     }
 
