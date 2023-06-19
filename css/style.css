@@ -125,9 +125,9 @@ h5 {
 
 .card {
     padding: 1rem .4rem;
-    max-width: 200px;
-    min-width: 200px;
+    width: 200px;
     text-align: center;
+    position: relative;
 }
 
 .card h4 {
@@ -150,12 +150,8 @@ h5 {
     position: absolute;
     color: white;
     font-size: 5rem;
-    right: 60px;
-    bottom: 135px;
-}
-
-.card {
-    position: relative;
+    right: 30%;
+    bottom: 47%;
 }
 
 .card:hover i {
@@ -196,6 +192,8 @@ h5 {
 .nav-user-section img {
     width: 15px;
     padding-right: 3px;
+    background-color: #666666;
+    border-radius: 10px;
 }
 
 .popular-section span {
@@ -238,7 +236,15 @@ h5 {
 }
 
 .progress-bar {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px;
+    width: 50%;
+}
+
+.progress {
     background-color: #666666;
+    border-radius: 10px;
     padding: 2px;
     width: 100%;
 }
@@ -291,9 +297,17 @@ h5 {
 }
 
 .volume-bar {
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+    height: 4px;
+}
+
+.volume-bar-progress {
     background-color: #666666;
-    width: 100%;
-    height: 5px;
+    border-radius: 10px;
+    width: 70%;
+    height: 4px;
 }
 
 .item-section li:hover {
