@@ -318,13 +318,13 @@ h5 {
     border-left: 2px solid greenyellow;
 }
 
-@media screen and (width: 600px) {
+@media screen and (max-width: 600px) {
     .navbar span {
         display: none;
     }
 
     .navbar {
-        align-items: center;
+        text-align: center;
     }
 
     .logo-spotify {
